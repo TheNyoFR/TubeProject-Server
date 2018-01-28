@@ -8,4 +8,7 @@
   },
   "author": "TubeProject Developement Team",
   "license": "ISC",
+  "dependencies": {
+    "ftp-srv": "^2.15.0"
+  }
 }
