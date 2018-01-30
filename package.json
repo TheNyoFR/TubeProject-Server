@@ -9,6 +9,9 @@
   "author": "TubeProject Developement Team",
   "license": "ISC",
   "dependencies": {
-    "ftp-srv": "^2.15.0"
+    "create-torrent": "^3.29.2",
+    "ftp-srv": "git+https://github.com/trs/ftp-srv.git#emit-custom-events",
+    "handbrake-js": "^2.2.2",
+    "webtorrent": "^0.98.21"
   }
 }
