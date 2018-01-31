@@ -14,5 +14,5 @@ Une fois ceci fait, crée 3 nouveau dossier :
 
 Une fois qu'ils sont crées vous pouvez lancez le serveur en tapant dans votre terminal :
 ```sh
-$ node serveur.js
+$ node server.js
 ```
