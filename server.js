@@ -17,6 +17,15 @@ console.log('-- ProjectTube Server --')
 var ftpServ = new ftp("ftp://127.0.0.1:250", {});
 SeedAllTorrentFiles()
 
+//REMOTE ACCESS
+if (fs.existsSync(__dirname + '/remoteAccess.js')){
+    var remoteAccess = require('./remoteAccess.js')
+    remoteAccess.generateAccess
+    remoteAccess.startServer
+} else {
+    console.log("RemoteAccess is disable.")
+}
+
 //FUNCTION SEED ALL FILE
 function SeedAllTorrentFiles (){
     fs.readdir( TorrentFileDir , function( err, files ) {
